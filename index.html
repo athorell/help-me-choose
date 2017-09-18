@@ -34,7 +34,6 @@
             options.push($(this).val())
           })
           var winner = options[Math.floor(Math.random() * options.length)]
-          console.log(winner)
           $('.resultSection').text(winner)
         }
         $('.submit').click(submit)
